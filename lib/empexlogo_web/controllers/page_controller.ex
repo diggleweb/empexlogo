@@ -2,6 +2,6 @@ defmodule EmpexlogoWeb.PageController do
   use EmpexlogoWeb, :controller
 
   def index(conn, _params) do
-    render(conn, "index.html")
+    live_render(conn, EmpexlogoWeb.PageLiveView, session: %{})
   end
 end
