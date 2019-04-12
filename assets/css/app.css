@@ -1,3 +1,92 @@
 /* This file is for your main application css. */
 
 @import "./reset.css";
+
+body {
+  --blue-3: #5ED0FA;
+  --cyan-3: #54D1DB;
+  --pink-3: #A368FC;
+  --red-3: #F86A6A;
+  --yellow-3: #FADB5F;
+  --green-3: #65D6AD;
+
+  --blue-7: #127FBF;
+  --cyan-7: #0E7C86;
+  --pink-7: #690CB0;
+  --red-7: #AB091E;
+  --yellow-7: #CB6E17;
+  --green-7: #147D64;
+}
+
+.empexlogo {
+  width: 800px;
+  margin: auto;
+}
+
+.empexlogo svg {
+  width: 800px;
+  height: auto;
+}
+
+#letter-e1 {
+  fill: var(--blue-3);
+}
+
+#letter-m {
+  fill: var(--cyan-3);
+}
+
+#letter-p {
+  fill: var(--pink-3);
+}
+
+#letter-e2 {
+  fill: var(--red-3);
+}
+
+#letter-x {
+  fill: var(--yellow-3);
+}
+
+
+
+#top-outline {
+  fill: var(--green-3);
+}
+#bottom-outline{
+  fill: var(--green-3);
+}
+
+
+#top-diamond-1{
+  fill: var(--blue-3);
+}
+#top-diamond-2{
+  fill: var(--cyan-3);
+}
+#top-diamond-3{
+  fill: var(--pink-3);
+}
+#top-diamond-4{
+  fill: var(--red-3);
+}
+#top-diamond-5{
+  fill: var(--yellow-3);
+}
+
+#bottom-diamond-1{
+  fill: var(--yellow-3);
+}
+#bottom-diamond-2{
+  fill: var(--red-3);
+}
+#bottom-diamond-3{
+  fill: var(--pink-3);
+}
+#bottom-diamond-4{
+  fill: var(--cyan-3);
+}
+#bottom-diamond-5{
+  fill: var(--blue-3);
+}
+
