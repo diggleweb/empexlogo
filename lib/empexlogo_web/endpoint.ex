@@ -40,7 +40,7 @@ defmodule EmpexlogoWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_empexlogo_key",
-    signing_salt: "igbvSh0m"
+    signing_salt: "cCj4ERwj"
 
   plug EmpexlogoWeb.Router
 end
