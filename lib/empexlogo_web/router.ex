@@ -1,5 +1,6 @@
 defmodule EmpexlogoWeb.Router do
   use EmpexlogoWeb, :router
+  import Phoenix.LiveView.Router
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -17,6 +18,6 @@ defmodule EmpexlogoWeb.Router do
   scope "/", EmpexlogoWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    live "/", PageLiveView
   end
 end
